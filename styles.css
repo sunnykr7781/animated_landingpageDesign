@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  /* z-index: 1; */
+}
+#loader {
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#loader h1 {
+  font-size: 100px;
+  font-family: monument;
+  font-weight: 100;
+}
+#main {
+  position: relative;
+  height: 100%;
+  height: 100%;
+  background-color: black;
+
+  padding: 4px 7px 7px 20px;
+}
+#navbar {
+  /* background-color: red; */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+#navbar > img {
+  /* padding-left: 20px; */
+  height: 85%;
+  width: 19%;
+  background-color: red;
+}
+#centreitems {
+  text-transform: uppercase;
+
+  gap: 39px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#centreitems h1 {
+  letter-spacing: 0.7px;
+
+  font-size: 14px;
+  font-weight: 300;
+}
+#rightitems {
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+#rightitems h2 {
+  /* word-spacing: 10px; */
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+#rightitems button {
+  background-color: azure;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 16px 24px;
+  border: none;
+  text-transform: uppercase;
+}
+
+#main > h1 {
+  text-transform: uppercase;
+
+  text-align: center;
+  /* justify-content: space-between; */
+  font-size: 120px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.1px;
+  /* position: absolute; */
+  /* z-index: 22; */
+}
+#top {
+  margin-top: 25px;
+}
+
+#main h1 span {
+  padding: 22px 48px;
+  font-size: 28px;
+  background-color: rgba(165, 42, 42, 0.85);
+  justify-content: center;
+  border-radius: 50px;
+}
+span {
+  margin: 0px 30px;
+}
+#main > img {
+  /* position: absolute; */
+  height: 207px;
+}
+.a {
+  top: 107px;
+  left: 53px;
+  border-radius: 4%;
+  width: 152px;
+  position: absolute;
+}
+.b {
+  bottom: 75px;
+  right: 58px;
+  border-radius: 4%;
+  position: absolute;
+}
+h5 {
+  position: absolute;
+  left: 50%;
+  bottom: 12%;
+  transform: translate(-50%, 0);
+}
